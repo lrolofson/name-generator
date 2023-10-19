@@ -8,4 +8,5 @@ namesFirst = listify("first-names.txt")
 namesLast = listify("last-names.txt")
 namesSuffix = listify("last-name-suffixes.txt")
 
-print(random.choice(namesFirst) + " " + random.choice(namesLast) + random.choice(namesSuffix))
+for i in range(10):
+    print(random.choice(namesFirst) + " " + random.choice(namesLast) + random.choice(namesSuffix))
